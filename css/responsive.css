@@ -1,0 +1,123 @@
+@media only screen and (max-width:1350px) {
+    .container {
+    max-width: 90%;
+}
+}
+@media only screen and (max-width:1200px) {
+}
+@media only screen and (max-width:1100px) {
+    .lg_column_1100{
+        flex-direction: column;
+    }
+
+}
+@media only screen and (max-width:1000px) {
+     .wrap_1000{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .column_1000{
+        flex-direction: column;
+    }
+    .align_center_1000{
+        align-items: center;
+    }
+    .header-b,.d_none_1000{
+        display: none;
+    }
+    .mobile_toggle{
+        display: block;
+    }
+    .features-left-sec{
+    width: 60%;
+}
+.testi-section-main .testimonial-content {
+    width: 90%; 
+}
+.with-us-section .with-us-header {
+    width: 100%;
+}
+.with-us-section form .input-1,.with-us-section form .input-2 {
+    width: 70%;
+    margin: 10px 0;
+}
+ 
+    .with-us-section form .input-3 {
+    width: 50%;
+    margin: 10px 0;
+}
+}
+@media only screen and (max-width:900px) {
+     
+    .md_column{
+        flex-direction: column;
+    }
+    .wrap_900{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .align_center_900{
+        align-items: center;
+    }
+    .banner-img img{
+        width: 50%;
+        display: inherit;
+        margin: 0 auto;
+    }
+    .digital-market-main-sec .d-market-wrap {
+    width: 80%; 
+}
+    .features-section .features-right {
+    width: 100%;
+}
+.faq-section-main .faq-left {
+    width: 80%;
+}
+.faq-section-main .faq-right {
+    width: 60%;
+}
+
+}
+@media only screen and (max-width:700px) {
+    .project-menu{
+    display: none;
+}
+.footer-section-bottom {
+	flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+}
+@media only screen and (max-width:600px) {
+
+    .sm_column_600{
+        flex-direction: column;
+    }
+    .align_item_600{
+        align-items: center;
+    }
+    .my-button-2 { 
+    position: unset;
+    margin-top: 10px;
+     
+}
+    .digital-market-main-sec .d-market-wrap {
+    width: 95%; 
+}
+
+}
+@media only screen and (max-width:500px) {
+    .price-section-wrap .pricing-card{
+     
+    width: 100%;
+    
+}
+    .footer-section-medle .footer-section-2 > :nth-child(2) {
+	flex-direction: column;
+    align-items: center;
+}
+}
